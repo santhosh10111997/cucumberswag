@@ -1,0 +1,242 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-20T05:44:31.995Z",
+        "line": 4,
+        "name": "User go to login page",
+        "description": "",
+        "id": "user-buy-the-product;user-go-to-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4713000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user launch the url",
+            "match": {
+              "location": "StepDefinition.user_launch_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3527200,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User fill the username",
+            "match": {
+              "location": "StepDefinition.user_fill_the_usernamee(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "standard_user"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1857300,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "The user fill password",
+            "match": {
+              "location": "StepDefinition.the_user_fill_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1664600,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "The user click the login button",
+            "match": {
+              "location": "StepDefinition.the_user_click_the_login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@a2a"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-20T05:44:32.118Z",
+        "line": 11,
+        "name": "User select the products to Add to card page",
+        "description": "",
+        "id": "user-buy-the-product;user-select-the-products-to-add-to-card-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1984100,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user handle the alert",
+            "match": {
+              "location": "StepDefinition.user_handle_the_alert()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1917600,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User select the products to click the add to card button",
+            "match": {
+              "location": "StepDefinition.user_select_the_products_to_click_the_add_to_card_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1683800,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user go to click the add card page",
+            "match": {
+              "location": "StepDefinition.user_go_to_click_the_add_card_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@a2a"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-20T05:44:32.136Z",
+        "line": 16,
+        "name": "User check out the product and confirming order",
+        "description": "",
+        "id": "user-buy-the-product;user-check-out-the-product-and-confirming-order",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1564100,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user click the checkout button",
+            "match": {
+              "location": "StepDefinition.user_click_the_checkout_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1465100,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user fill the first name",
+            "match": {
+              "location": "StepDefinition.user_fill_the_first_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1319400,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user fill the last name",
+            "match": {
+              "location": "StepDefinition.user_fill_the_last_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1336700,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user fill the postel code",
+            "match": {
+              "location": "StepDefinition.user_fill_the_postel_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1513700,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user click the continue button",
+            "match": {
+              "location": "StepDefinition.user_click_the_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1835200,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user go to the description page and click the finish button",
+            "match": {
+              "location": "StepDefinition.user_go_to_the_description_page_and_click_the_finish_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@a2a"
+          },
+          {
+            "name": "@retest"
+          }
+        ]
+      }
+    ],
+    "name": "User buy the product",
+    "description": "",
+    "id": "user-buy-the-product",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/swag.feature",
+    "tags": [
+      {
+        "name": "@a2a",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

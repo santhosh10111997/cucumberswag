@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.135289">
+<testcase classname="User buy the product" name="User go to login page" time="0.099382">
+<system-out><![CDATA[Given user launch the url...................................................skipped
+When User fill the username.................................................skipped
+And The user fill password..................................................skipped
+And The user click the login button.........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User buy the product" name="User select the products to Add to card page" time="0.015606">
+<system-out><![CDATA[When user handle the alert..................................................skipped
+And User select the products to click the add to card button................skipped
+And user go to click the add card page......................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User buy the product" name="User check out the product and confirming order" time="0.020301">
+<system-out><![CDATA[When user click the checkout button.........................................skipped
+And user fill the first name................................................skipped
+And user fill the last name.................................................skipped
+And user fill the postel code...............................................skipped
+And user click the continue button..........................................skipped
+Then user go to the description page and click the finish button............skipped
+]]></system-out>
+</testcase>
+</testsuite>
